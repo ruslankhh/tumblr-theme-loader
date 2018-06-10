@@ -1,0 +1,21 @@
+{
+  "name": "tumblr-theme-loader",
+  "version": "1.0.0",
+  "description": "Tumblr theme loader for webpack.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslankhh/tumblr-theme-loader.git"
+  },
+  "keywords": [
+    "tumblr",
+    "tumblr-theme",
+    "webpack-loader",
+    "webpack"
+  ],
+  "author": "Ruslan Khusnetdinov <ruslankhh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruslankhh/tumblr-theme-loader/issues"
+  },
+  "homepage": "https://github.com/ruslankhh/tumblr-theme-loader#readme"
+}
