@@ -1,2 +1,3 @@
-# tumblr-theme-loader
+# Tumblr Theme Loader
+
 Tumblr theme loader for webpack.
