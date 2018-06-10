@@ -2,7 +2,7 @@
   "name": "tumblr-theme-loader",
   "version": "1.0.0",
   "description": "Tumblr theme loader for webpack.",
-  "main": "lib/index.js",
+  "main": "lib/loader.js",
   "engines": {
     "node": ">= 4"
   },
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "lint": "eslint lib/**/*.js",
-    "test": "nyc mocha -r babel-core/register lib/**/*.test.js",
+    "test": "nyc mocha -r @babel/register lib/**/*.test.js",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "husky": {
@@ -28,11 +28,11 @@
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/register": "^7.0.0-beta.49",
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
     "@commitlint/travis-cli": "^7.0.0",
     "babel-loader": "^8.0.0-beta.3",
-    "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "codecov": "^3.0.2",
     "eslint": "^4.19.1",
