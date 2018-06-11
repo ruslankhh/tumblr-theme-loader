@@ -14,7 +14,7 @@ export default (fixture, options = {}) => {
       rules: [{
         test: /\.html$/,
         use: {
-          loader: path.resolve(__dirname, './loader.js'),
+          loader: path.resolve(__dirname, '../lib/loader.js'),
           options
         }
       }]
