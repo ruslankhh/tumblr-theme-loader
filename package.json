@@ -12,7 +12,8 @@
   "scripts": {
     "lint": "eslint lib/**/*.js",
     "test": "nyc mocha -r @babel/register lib/**/*.test.js",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -46,6 +47,7 @@
     "memory-fs": "^0.4.1",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2",
+    "standard-version": "^4.4.0",
     "webpack": "^4.12.0"
   },
   "keywords": [
