@@ -1,6 +1,6 @@
 {
   "name": "tumblr-theme-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tumblr theme loader for webpack.",
   "main": "lib/loader.js",
   "engines": {
